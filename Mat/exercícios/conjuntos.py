@@ -1,5 +1,6 @@
 conjuntoA = {1,3,6,7,8}
 conjuntoB = {1,2,5,7,9}
+n = 5
 
 print("Conjunto A: ", conjuntoA)
 print("Conjunto B: ", conjuntoB)
@@ -18,3 +19,6 @@ print("A diferença dos conjuntos B e A é: ", conjuntoB - conjuntoA)
 
 #Diferença Simétrica
 print("A diferença simétrica entre os conjuntos é: ", conjuntoA ^ conjuntoB)
+
+for i in range (n, 1, 1):
+    print
